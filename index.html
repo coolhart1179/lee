@@ -12,17 +12,44 @@
 
   gtag('config', 'UA-153599296-1');
 </script>
+  <style>
+    a {color:black;
+      text-decoration: none ;
+    }
+    h1 {font-size:60px;text-align:center;
+        border-bottom:5px solid grey;
+        margin:0;}
 
+    ol{border-right:5px solid gray;
+       width:160px;
+       margin:0;
+       padding:40px;}
+    body {margin:0;}
+    .center {display:block;
+             margin-left:auto;
+             margin-right:auto;
+             width:40%;}
+    #grid{display:grid;
+          grid-template-columns: 150px 1fr;}
+    #art{padding-left: 200px
+        font-size:40px; text-align:center;padding:50px;}
+  </style>
 </head>
 <body>
 <h1><strong><a href="index.html">임신출산육아 대백과</a></strong></h1>
-<p><img src="KakaoTalk_20191125_201417774_02.jpg" width="400"></p>
-  <ol>
-    <li><a href="1.html">산후조리의 기초</a></li>
-    <li><a href="2.html">42일 산후조리 스케줄</a></li>
-    <li><a href="3.html">산후우울증 극복하기</a></li>
-    <li><a href="5.html">모유수유 교과서</a></li>
-  </ol>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" class="saw">산후조리의 기초</a></li>
+      <li><a href="2.html" class="saw" id="active">42일 산후조리 스케줄</a></li>
+      <li><a href="3.html">산후우울증 극복하기</a></li>
+      <li><a href="5.html">모유수유 교과서</a></li>
+    </ol>
+    <div id="art"> 이 홈페이지는 삼성출판사에서 출판한 "임신 출산 육아 대백과"라는
+      책의 내용을 발췌한 것입니다.
+      <br>제 아내가 무거운 책을 보지 않고 인터넷으로 내용을 보게 해주기 위해 만들었습니다.
+      <br>좋은 산후조리를 통해 건강을 회복하기 바랍니다.
+    </div>
+  </div>
   <p>
   <div id="disqus_thread"></div>
 <script>
